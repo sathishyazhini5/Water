@@ -1,0 +1,902 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4afeea369c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header d-flex" >
+       <div class="d-flex">
+        <div class="logo1"></div>
+        <p class="dateNDtime d-flex flex-column text-white"><span>14:22:15</span>
+            <span>Fri Sep 23 2023</span>
+        </p>
+
+        
+        </div>
+        <div class="d-flex flec-row justify-content-around">
+            <div class="heading">
+                <h5 class="tittl d-flex flex-column text-white">
+                    <span>SCADA SYSTEM FOR PILLUR - RAW WATER PUMP STATION</span>
+                    <div class="d-flex flox-row justify-content-center align-items-center">
+                        <span class="text-center ms-5">CWPH</span> 
+                    <div class="button">
+                        <button class="logout">LOGOUT</button><small class="user ms-3">USER:</small>
+                    </div>
+                </div>
+                </h5>
+                
+            </div>
+            <div class="logo2 d-flex">
+                  <div class="subLogo1"></div>
+                  <div class="subLogo2"></div>
+            </div>
+        </div>
+      
+       
+    </header>
+
+ 
+    <section>
+       
+        <div class="main">
+         
+            <div class="step-1 d-flex flex-row float-end align-items-center">
+                <div>
+                    <!-- <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                        <p class="d-flex justify-content-evenly"><span>#COM</span>
+                        <small class="ms-2">Nm2</small></p>
+                        <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                    </div> -->
+                </div>
+                <div class="me-3" style="top: 160px;position:absolute; right: 0px;">
+                    <div class="comM3 d-flex flec-row justify-content-between">
+                        <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['FT_01-FLOW'] }}</span>
+                        <small class="ms-2">m3hr</small></p>
+                        <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                    </div>
+
+ 
+                    <!-- <div class="comM3 d-flex flec-row justify-content-between">
+                        <p class="d-flex justify-content-evenly"><span>#COM</span>
+                        <small class="ms-2">m3hr</small></p>
+                        <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                    </div> -->
+
+                </div>           
+            </div>
+
+            
+ 
+
+            <div class="step-2">
+                
+                <div class="pipe1 d-flex justify-content-between align-items-center mt-5" > 
+              
+                    <div class="d-flex vertical-line">
+                        <div class="two-line"></div>
+                    <div class="two-line v-line-2"></div>
+                        <div class="arrow">&rarr;</div>
+                        <div class="arrow arrow1">&rarr;</div>
+                        <div class="arrow arrow2">&rarr;</div>
+                        <div class="arrow arrow3">&rarr;</div>                      
+                        <div class="arrow arrow4">&rarr;</div>
+                        <div class="arrow arrow5">&#8595;</div>
+                        <!-- <div class="arrow num6">PRIORITY FOR PUMP 4,5,6</div> -->
+                        <!-- <div class="arrow meter7">200M</div> -->
+                        <!-- <div class="arrow PT8">PT-13</div> -->
+                        <!-- <div class="arrow FM9">FM-2</div> -->
+                        <div class="arrow FM10">FM-1</div>
+                        <div class="arrow cwr11">CWR</div>
+                        <div class="arrow horizontal-line1-1"></div>
+                        <div class="arrow horizontal-line1-2"></div>
+                        <div class="arrow horizontal-line2-1"></div>
+                        <div class="arrow horizontal-line2-2"></div>
+                        <div class="arrow horizontal-line3-1"></div>
+                        <div class="arrow horizontal-line3-2"></div>
+                        <div class="arrow horizontal-line4-1"></div>
+                        <div class="arrow horizontal-line4-2"></div>
+                        <div class="arrow horizontal-line5-1"></div>
+                        <div class="arrow horizontal-line5-2"></div>
+                        <div class="arrow horizontal-line6-1"></div>
+                        <div class="arrow horizontal-line6-2"></div>
+                        <div class="arrow horizontal-line-01"></div>
+                        <div class="arrow horizontal-line-02"></div>
+                        <div class="arrow horizontal-line-03"></div>
+                        <div class="arrow horizontal-line-04"></div>
+                        <div class="arrow horizontal-line-05"></div>
+                        <div class="arrow horizontal-line-06"></div>
+                        <div class="arrow arrow01">&larr;</div>
+                        <div class="arrow inlet-1"><p>TO<br> DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-1">VIP-1</div>
+                        <div class="arrow arrow02">&larr;</div>
+                        <div class="arrow inlet-2"><p>TO DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-2">VIP2</div>
+                        <div class="arrow arrow03">&larr;</div>
+                        <div class="arrow inlet-3"><p>TO DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-3">VIP3</div>
+                        <div class="arrow arrow04">&larr;</div>
+                        <div class="arrow inlet-4"><p>TO DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-4">VIP4</div>
+                        <div class="arrow arrow05">&larr;</div>
+                        <div class="arrow inlet-5"><p>TO DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-5">VIP5</div>
+                        <div class="arrow arrow06">&larr;</div>
+                        <div class="arrow inlet-6"><p>TO DUPLEX<br>STRAINER<br>INLET</p></div>
+                        <div class="arrow vip-6">VIP6</div>
+                        <div class="arrow pumpline-1-1"></div>
+                        <div class="arrow pumpline-1-2"></div>
+                        <div class="arrow pipe-arrow1">&#8595;</div>
+                        <div class="arrow sump-1">SUMP</div>
+                        <div class="arrow pumpline-2-1"></div>
+                        <div class="arrow pumpline-2-2"></div>
+                        <div class="arrow pipe-arrow2">&#8595;</div>
+                        <div class="arrow sump-2">SUMP</div>
+                        <div class="arrow pumpline-3-1"></div>
+                        <div class="arrow pumpline-3-2"></div>
+                        <div class="arrow pipe-arrow3">&#8595;</div>
+                        <div class="arrow sump-3">SUMP</div>
+                        <div class="arrow pumpline-4-1"></div>
+                        <div class="arrow pumpline-4-2"></div>
+                        <div class="arrow pipe-arrow4">&#8595;</div>
+                        <div class="arrow sump-4">SUMP</div>
+                        <div class="arrow pumpline-5-1"></div>
+                        <div class="arrow pumpline-5-2"></div>
+                        <div class="arrow pipe-arrow5">&#8595;</div>
+                        <div class="arrow sump-5">SUMP</div>
+                        <div class="arrow pumpline-6-1"></div>
+                        <div class="arrow pumpline-6-2"></div>
+                        <div class="arrow pipe-arrow6">&#8595;</div>
+                        <div class="arrow sump-6">SUMP</div>
+                        <!-- <div class="arrow arrow1-1">&rarr;</div>
+                        <div class="arrow meter-1">100M</div>
+                        <div class="arrow arrow1-2">&rarr;</div>
+                        <div class="arrow meter-2">100M</div>
+                        <div class="arrow arrow1-3">&rarr;</div>
+                        <div class="arrow meter-3">100M</div>
+                        <div class="arrow arrow1-4">&rarr;</div>
+                        <div class="arrow meter-4">100M</div>
+                        <div class="arrow arrow1-5">&rarr;</div>
+                        <div class="arrow meter-5">100M</div> -->
+                        
+                       
+
+                    </div>
+                    
+                    <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                    <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                    <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                    <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                  <div class="arrowWithPipe d-flex justify-content-between align-items-center">
+                    <i class="fa-solid fa-right-long ms-3" style="color: #252628;"></i>
+                    <div style="margin-left: 860px; position: sticky;">
+                    <!-- <div class="ion">
+                        <div>
+                            
+                            <div class="joined"></div> 
+                            <div class="d-flex">
+                                
+                            <div class="corner"></div>
+                            <div class="mid"></div>
+                            <div class="corner"></div>
+                            </div>
+                            <div class="ion-2"></div>
+                            <div class="bottom-ion"></div>
+                        </div>
+   
+                    </div> -->
+                  </div>
+                </div>
+
+
+
+
+
+
+
+       
+         <div style="margin-left: 800px;">
+            <div class="lastarrowWithpipe d-flex-1">
+                <!-- <div>
+                <div class="mian1-1"></div>
+                <div class="ion1-1 d-flex">
+                    <div class="startjoin-1"></div>
+                    <div class="midjoin-1 d-flex justify-content-between align-items-center">
+                        <div class="midline-1"></div>
+                    </div>
+                    <div class="endjoin-1"></div>
+                </div>
+            </div> -->
+            <i class="fa-solid fa-right-long-1" style="color: #252628;"></i>
+
+            </div>
+        </div>
+<!-- ------------------------------------------------------------------ -->
+
+
+
+
+                    <div class="lastarrowWithpipe d-flex">
+                       <div>
+                        <div class="mian1"></div>
+                        <div class="ion1 d-flex">
+                            <div class="startjoin"></div>
+                            <div class="midjoin d-flex justify-content-between align-items-center">
+                                <div class="midline"></div>
+                            </div>
+                            <div class="endjoin"></div>
+                        </div>
+                       </div>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                    </div>
+                    
+                  
+                </div>
+                
+            </div>
+
+
+            <div class="step-3">
+                <div class="d-flex justify-content-evenly">
+                    <div class="d-flex">
+         
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT01-PRESSURE'] }}</span>
+                                <!-- <small class="ms-2">Nm2</small></p> -->
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                
+                                <small class="PT-1">PT-1</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box"></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    <div class="mid-liney"></div>
+                                </div>
+                               
+                               </div>
+                               <div class="joinTo-water d-flex justify-content-center align-items-center">
+                               </div> 
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT02-PRESSURE'] }}</span>
+                                <!-- <small class="ms-2">Nm2</small></p> -->
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                <small class="PT-1">PT-2</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">
+                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+                            </div>
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box "></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    <div class="mid-liney"></div>
+                                </div>
+                               </div>
+                               <div class="joinTo-water d-flex justify-content-center align-items-center">
+                            </div> 
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT03-PRESSURE'] }}</span>
+                                <!-- <small class="ms-2">Nm2</small></p> -->
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                <small class="PT-1">PT-3</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">
+                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+                            </div>
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box "></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    <div class="mid-liney"></div>
+                                </div>
+                               </div>
+                               <div class="joinTo-water d-flex justify-content-center align-items-center">
+                            </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT_04-PRESSURE'] }}</span>
+                                <small class="ms-2">Nm2</small></p>
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                <small class="PT-1">PT-4</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">
+                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+                            </div>
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box "></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    <div class="mid-liney"></div>
+                                </div>
+                               </div>
+                               <div class="joinTo-water d-flex justify-content-center align-items-center">
+                            </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT_05-PRESSURE'] }}</span>
+                                <small class="ms-2">Nm2</small></p>
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                <small class="PT-1">PT-5</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">
+                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+                            </div>
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box "></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    <div class="mid-liney"></div>
+                                </div>
+                               </div>
+                               <div class="joinTo-water d-flex justify-content-center align-items-center">
+                            </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="comBar">
+                            <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['PT_06-PRESSURE'] }}</span>
+                                <small class="ms-2">Nm2</small></p>
+                                <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                            </div>
+                            <div class="d-flex ms-3">
+                                <small class="PT-1">PT-6</small>
+                                <div class="ion">
+                                    <div class="joined"></div>
+                                    <div class="d-flex">
+                                        
+                                    <div class="corner"></div>
+                                    <div class="mid"></div>
+                                    <div class="corner"></div>
+                                    </div>
+                                    <div class="ion-2"></div>
+                                    <div class="bottom-ion"></div>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="verticle-pipe d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-solid fa-up-long" style="color: #000000;"></i>
+                        </div>
+                        <div class="d-flex main2">
+                            <div class="d-flex t-shape-pipe ">
+                                <div class="d-flex">
+                                    <div class="horiz-pipe"></div>
+                                    <div class="verti-pipe"></div>
+                                </div>
+                            </div>
+                            <div class="pump">
+                                
+                                <div class="pump-top-box d-flex justify-content-center align-items-center">
+                                    <div class="inner-box  d-flex justify-content-center align-items-center">SS</div>
+                                </div>
+                               <div class="red-pump d-flex flex-column align-items-center">
+                                
+                                <div class="d-flex me-3">
+                                    <div class="bit-pipe"></div>
+                                    <div class="pump-top d-flex flex-column justify-content-center align-items-center">
+                                        <div class="d-flex flex-row">
+                                            <div class="inner-black"></div>
+                                            <div class="inner-black inner-black-mid"></div>
+                                            <div class="inner-black"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-evenly inner-bottum mt-4">
+                                            <div class="inner-bottum-box"></div>
+                                            <div class="inner-bottum-box"></div>
+                                        </div>
+                                        <div class="last-bottom-box "></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="pump-mid"></div>
+                                
+                                <div class="pumb-end d-flex justify-content-center align-items-center">
+                                    
+                                    <div class="mid-liney"></div>
+                          
+                                </div>
+
+                               </div>
+                             
+                               <!-- <div class="joinTo-water d-flex justify-content-center align-items-center">
+                            </div>  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-4">
+                <div class="d-flex flex-column">
+                    <!-- <div class="pipe-4 d-flex justify-content-between align-items-center">
+                        <div class="d-flex vertical-line">
+                            <div class="two-line"></div>
+                        <div class="two-line v-line-2"></div>
+                        </div>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                        <i class="fa-solid fa-right-long" style="color: #252628;"></i>
+                        <div class="d-flex vertical-line">
+                            <div class="two-line"></div>
+                        <div class="two-line v-line-2"></div>
+                        </div>
+                    </div> -->
+                    <div class="bronze-pipe-1 d-flex align-items-center">
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right: 4px;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right:10px ;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right: 15px;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right: 23px;" ></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right: 27px;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="d-flex justify-content-center align-items-center"><img src="../../assets/arrow-icony.png" alt="" width="23px" height="23px" style="margin-right: 30px;"></li>
+                    </div>
+                    <div class="bottom-water-flow">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column">
+                                <div class="sand-1 d-flex align-items-center ">
+                                    <div class="ms-5 mt-4">
+                                        <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                            <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['ULT_01-LEVEL'] }}</span>
+                                            <small class="ms-2">m</small></p>
+                                            <div class="T-box d-flex justify-content-center align-items-center">T</div>
+
+                                        </div>
+                         
+                                        <div class="lt-1 d-flex align-items-end">
+                                            <div class="inner-lt d-flex justify-content-evenly align-items-center">
+
+                                                <div class="div-1"></div>
+                                                <h6 style="margin-right: 0px; font-size: 12px; margin-top: 20px;color: black;" >LT-</h6>
+                                                <h6 style="margin-right: 100px; font-size: 12px; margin-top: 18px;color: black;" >01</h6>
+                                                <div class="div-1"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="pipeline-1-1"></div>
+                                        <div class="pipeline-1-2"></div>
+                                    </div>
+                                </div>
+                                <div class="sand-3"></div>
+                                <div>
+                                    <div class="sand-4">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bronze-pipe-2">
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                            </div>
+                            <div class="centerofWater">
+                                <!-- <div class="jointhewatertobronze d-flex justify-content-between"> 
+                                    
+                                    <div class="joinpipe" ></div>                                
+                                    <div class="joinpipe"></div>                              
+                                    <div class="joinpipe"></div>
+                                    <div class="joinpipe"></div>
+                                    <div class="joinpipe"></div>
+                                    <div class="joinpipe"></div> 
+                                </div>  -->
+                            </div>
+                            <div class="bronze-pipe-2 ms-3">
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                                <li class="bronze-2"></li>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="sand-2">
+                                    <div class="ms-2 mt-4">
+                                        <div class="comM3 comNm2 d-flex flec-row justify-content-between">
+                                            <p class="d-flex justify-content-evenly"><span>{{ apiData[0]['ULT_02-LEVEL'] }}</span>
+                                            <small class="ms-2">m</small></p>
+                                            <div class="T-box d-flex justify-content-center align-items-center">T</div>
+                                        </div>
+                                        <div class="lt-2 lt-1 d-flex align-items-end">
+                                            <div class="inner-lt d-flex justify-content-evenly align-items-center">
+                                                <div class="div-1"></div>
+                                                <div class="div-1"></div>                                              
+                                            </div>
+                                            <h6 style=" margin-left: 15px; font-size: 12px;color: black;">LT-</h6>
+                                            <h6 style=" margin-right: 15px; font-size: 12px;color: black;">02</h6>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                 <div class="sand-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center position-relative">
+                      
+                        <div class="under-sand d-flex align-items-end">
+                            <div class="sandy "></div>
+                            
+
+                                <div class="water-flow d-flex">
+                                <div class="water-flow-1 d-flex flex-column">
+                                       <div class="d-flex flex-column">
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-2"></li>
+                                        <li class="under-wall-2"></li>
+                                    </div> 
+                                
+
+                                </div>
+                                <div style="position: absolute;top: -50px;right: 546px;">
+                                    <h6 style="font-size: 10px;color: black;"><strong style="font-size: 2.5em; margin-right: 50px;color: black;">&#8593;</strong>SLG</h6>
+                                   
+                                      
+                                </div>
+                                <div style="position: absolute; top: -50px; left: 548px;">
+                                    <h6 style="font-size: 10px;color: black;">SLG<strong style="font-size: 2.5em; margin-left: 45px;color: black;">&#8593;</strong></h6>
+                                </div>
+                              
+                                <div class="center-water-flow d-flex flex-column justify-content-between">                                  
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div class="upper-rod d-flex flex-column align-items-center justify-content-around">                                          
+                                            <div class="border0frod"></div>
+                                            <div class="border0frod"></div>
+                                        </div>
+                                        <div class="pumpjoint-1"></div>
+                                        <div class="pumpjoint-2"></div>
+                                        <div class="pumpjoint-3"></div>
+                                        <div class="pumpjoint-4"></div>
+                                        <div class="pumpjoint-5"></div>
+                                        <div class="pumpjoint-6"></div>
+                                        <div class="pipeline"></div>
+                                        <div class="pipeline-1"></div>
+                                       
+                                    </div>
+                                    
+                                <div class="container">
+                                    <div class="left">
+                                      <h6>water Flow <strong style="font-size: 2.1em;color: black;">&#8593;</strong><h6 style="font-size: 10px;position: absolute;bottom: -10px;left: 140px;color: black;">TR</h6></h6>
+                                     
+                                    </div>
+                                    <div class="line"></div>
+                                    
+                                    <div class="right">
+                                      <h6><h6 style="font-size: 10px;position: absolute;bottom: -10px;right: 140px;color: black;">TR</h6><strong style="font-size: 2.1em;color: black;">&#8593;</strong>water Flow </h6>
+                                      
+                                    </div>
+                                    
+                                  </div>
+                            
+                                
+                             
+                                    <div class="d-flex flex-column justify-content-between">
+                                       
+                                        <div class="upper-rod-1 d-flex flex-column align-items-center justify-content-around">
+                                            
+                                            <div class="border0frod"></div>
+                                            <div class="border0frod"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="water-flow-1">
+                                    <div class="d-flex flex-column">
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-1"></li>
+                                        <li class="under-wall-2"></li>
+                                        <li class="under-wall-2"></li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sandy sandy-1"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

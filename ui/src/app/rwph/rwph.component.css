@@ -1,0 +1,1168 @@
+body{
+    height: 100vh;
+       width: 100%;
+   }
+   header{
+       width: 100%;
+       height: 50px;
+       background-image: radial-gradient( rgb(95, 141, 190) 1px, rgb(15, 85, 122));
+       border-bottom: 1px solid rgb(15, 85, 122);
+   }  
+   .logo1{
+       width: 60px;
+       height: 49px;
+       background-color: white;
+   } 
+   .dateNDtime{
+       font-size: 15px;
+   } 
+   span{
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bold;
+   }
+   .tittle{
+       font-size: 15px;
+   }
+   .logout{
+       padding: 0 10px;
+       font-size: 10px;
+       font-weight: bold;
+       border: 1px solid  white;
+       background-color: red;
+       position: relative;
+       bottom: 4px;
+   }
+   .button{
+       position: relative;
+       left: 170px;
+       
+   }
+   .user{
+       font-size: 12px;
+       color: white;
+   }
+   .logo2{
+       width: 150px;
+       height: 48px;
+       background-color: white;
+       border: 1px solid black;
+       margin-left: 150px;
+   }
+   .heading{
+       margin-left: 170px;
+   }
+   .subLogo1{
+       width: 100px;
+       height: 48px;
+   }
+   .subLogo2{
+       width: 50px;
+       border: 1px solid black;
+   }
+   section{
+       width: 100%;
+       height: 100%;
+       background-image: linear-gradient(to right,rgba(113, 181, 206, 0.391), rgba(156, 192, 205, 0.934), rgba(113, 181, 206, 0.391));
+   }
+   /* .step-1{
+     
+   } */
+   .comM3{
+       width: 75px;
+       background-color: black;
+       height: 20px;
+       color: rgba(26, 255, 0, 0.978);
+       font-size: 12px;
+       border-bottom: 4px solid gray;
+       border-right: 4px solid gray;
+   }
+   .comNm2{
+       margin-right:100px;
+   }
+   .T-box{
+       width: 7px;
+       height: 7px;
+       background-color: white;
+       color: black;
+       font-size: 7px;
+       font-weight: bold ;
+   }
+  
+   .pipe1{
+       width: 93%;
+       height: 13px;
+       background-color:rgb(49, 122, 161) ;
+       
+       /* margin-top:5%;  */
+       border-radius: 10px;
+       margin-left: 6%;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+
+   .arrow {
+    font-size: 25px;
+    position: absolute;
+    right: 1200px; 
+    bottom: 533px;
+    
+}
+.arrow1 {
+    right: 980px;
+    bottom: 533px;
+}
+.arrow2 {
+    right: 770px;
+    bottom: 533px;
+}
+.arrow3{
+    right: 560px;
+    bottom: 533px;
+}
+.arrow4{
+    right: 340px;
+    bottom: 533px; 
+}
+.arrow5{
+    right: 13px;
+    bottom: 525px; 
+}
+.num6{
+    right: 300px;
+    bottom: 562px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.meter7{
+    right: 680px;
+    bottom: 555px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.PT8{
+    right: 205px;
+    bottom: 528px; 
+    font-size: 10px;
+    font-weight: bold;
+}
+.FM9{
+    right: 125px;
+    bottom: 528px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.FM10{
+    right: 38px;
+    bottom: 528px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.cwr11{
+    right: 10px;
+    bottom: 520px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.horizontal-line1-1 {
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    right: 268px;
+    bottom: 417px;
+  }
+  .horizontal-line1-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    right: 255px;
+    bottom: 403px;
+  }
+  .horizontal-line2-1{
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    right: 485px;
+    bottom: 417px;
+  }
+  .horizontal-line2-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    right: 472px;
+    bottom: 403px;
+  }
+  .horizontal-line3-1{
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    right: 703px;
+    bottom: 417px
+  }
+  .horizontal-line3-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    right: 690px;
+    bottom: 403px;
+  }
+  .horizontal-line4-1{
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    left: 547px;
+    bottom: 417px
+  }
+  .horizontal-line4-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    left: 560px;
+    bottom: 403px;
+  }
+  .horizontal-line5-1{
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    left: 329px;
+    bottom: 417px
+  }
+  .horizontal-line5-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    left: 342px;
+    bottom: 403px;
+  }
+  .horizontal-line6-1{
+    border: 3px solid rgba(55,71,79,1.0); 
+    height: 20px;
+    right: 1357px;
+    bottom: 417px
+  }
+  .horizontal-line6-2{
+    border: 3px solid rgba(55,71,79,1.0);
+    rotate: 90deg; 
+    height: 30px;
+    right: 1344px;
+    bottom: 403px;
+  }
+  .horizontal-line-01{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    right: 1344px;
+    bottom: 340px;
+  }
+  .horizontal-line-02{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    right: 1127px;
+    bottom: 340px;
+  }
+  .horizontal-line-03{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    right: 909px;
+    bottom: 340px;
+  }
+  .horizontal-line-04{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    right: 692px;
+    bottom: 340px;
+  }
+  .horizontal-line-05{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    left: 994px;
+    bottom: 340px;
+  }
+  .horizontal-line-06{
+    border: 3px solid rgb(49, 122, 161);
+    rotate: 90deg; 
+    height: 35px;
+    left: 1212px;
+    bottom: 340px;
+  }
+  .arrow01{
+    font-size: 25px;
+    position: absolute;
+    right: 1352px; 
+    bottom: 342px;
+    font-weight: bold;
+    color: black;
+  }
+  .arrow02{
+    right: 1135px;
+    top: 363px;
+    color: black;
+  }
+  .arrow03{
+    right: 918px;
+    bottom: 342px;
+    color: black;
+  }
+  .arrow04{
+    right: 700px;
+    bottom: 342px;
+    color: black;
+  }
+  .arrow05{
+    right: 482px;
+    bottom: 342px;
+    color: black;
+  }
+  .arrow06{
+    right: 265px;
+    bottom: 342px;
+    color: black;
+  }
+  .inlet-1{
+    left: 48px;
+    bottom: 320px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .inlet-2{
+    left: 268px;
+    bottom: 318px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .inlet-3{
+    left: 485px;
+    bottom: 318px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .inlet-4{
+    left: 702px;
+    bottom: 318px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .inlet-5{
+    left: 920px;
+    bottom: 318px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .inlet-6{
+    left: 1138px;
+    bottom: 318px; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .vip-1{
+    left: 210px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .vip-2{
+    left: 428px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .vip-3{
+    left: 645px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .vip-4{
+    right: 585px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .vip-5{
+    right: 368px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .vip-6{
+    right: 150px;
+    bottom: 340px; 
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+.pumpline-1-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    right: 235px;
+    bottom: 245px;
+}
+.pumpline-1-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    right: 268px;
+    bottom: 270px;
+}
+.pumpline-2-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    right: 455px;
+    bottom: 245px
+}
+.pumpline-2-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    right: 488px;
+    bottom: 270px;
+}
+.pumpline-3-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    right: 670px;
+    bottom: 245px
+}
+.pumpline-3-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    right: 703px;
+    bottom: 272px;
+}
+.pumpline-4-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    right: 888px;
+    bottom: 245px
+}
+.pumpline-4-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    right: 922px;
+    bottom: 272px;
+}
+.pumpline-5-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    left: 362px;
+    bottom: 245px
+}
+.pumpline-5-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    left: 329px;
+    bottom: 272px;
+}
+.pumpline-6-1{
+    border: 3px solid rgb(49, 122, 161); 
+    rotate: 90deg; 
+    height: 70px;
+    right: 1323px;
+    bottom: 245px
+}
+.pumpline-6-2{
+    border: 3px solid rgb(49, 122, 161);  
+    height: 10px;
+    right: 1357px;
+    bottom: 272px;
+}
+.pipe-arrow1{
+    right: 265px;
+    bottom: 255px;  
+    color: black;
+}
+.pipe-arrow2{
+    right: 485px;
+    bottom: 255px;  
+    color: black;
+}
+.pipe-arrow3{
+    right: 700px;
+    bottom: 255px;  
+    color: black;
+}
+.pipe-arrow4{
+    right: 918px;
+    bottom: 255px;  
+    color: black;
+}
+.pipe-arrow5{
+    left: 325px;
+    bottom: 255px;  
+    color: black;
+}
+.pipe-arrow6{
+    left: 108px;
+    bottom: 255px;  
+    color: black;
+}
+.sump-1{
+    right: 235px;
+    bottom: 258px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.sump-2{
+    right: 455px;
+    bottom: 258px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.sump-3{
+    right: 672px;
+    bottom: 258px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.sump-4{
+    right: 890px;
+    bottom: 258px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.sump-5{
+    left: 338px;
+    bottom: 258px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.sump-6{
+    left: 98px;
+    bottom: 250px; 
+    font-size: 10px;
+    font-weight: bold; 
+}
+.arrow1-1{
+    left: 250px;
+    bottom: 238px;
+    color: black;
+}
+.arrow1-2{
+    left: 475px;
+    bottom: 238px;
+    color: black;
+}
+.arrow1-3{
+    left: 695px;
+    bottom: 238px;
+    color: black;
+}
+.arrow1-4{
+    right: 530px;
+    bottom: 238px;
+    color: black;
+}
+.arrow1-5{
+    right: 310px;
+    bottom: 238px;
+    color: black;
+}
+.meter-1{
+    left: 248px;
+    bottom: 257px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.meter-2{
+    left: 465px;
+    bottom: 257px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.meter-3{
+    left: 688px;
+    bottom: 257px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.meter-4{
+    right: 530px;
+    bottom: 257px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+.meter-5{
+    right: 310px;
+    bottom: 257px; 
+    font-size: 12px;
+    font-weight: bold;
+}
+ .main{
+           /* margin-top: 5%;  */
+           padding-top: 6%;
+   }
+   .two-line{
+       width: 3px;
+       height: 15px;
+       background-color: black;
+   }
+   .v-line-2{
+       margin-left: 2px;
+   }
+   .fa-solid{
+       font-weight: bolder;
+   }
+   .ion{
+       width: 35px;
+       height: 48px;
+       /* border: 1px solid black; */
+       /* margin-top: 10px; */
+   }
+   .joined{
+       width: 2px;
+       height: 5px;
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       border: 1px solid grey;
+   margin-left: 15px;
+   }
+  
+   .mid{
+       width:20px ;
+       height: 12px;
+       /* border: 1px solid black; */
+       position: relative;
+       bottom: 1px;
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       border: 1px solid grey;
+       
+   }
+   .corner{
+       border: 1px solid grey;
+       width:8px ;
+       height: 9px;
+     
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       
+   }
+   .ion-2{
+       border: 1px solid grey;
+       width: 13px;
+       height: 6px;
+       background-color:rgba(238, 238, 238, 0.714) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       margin-left: 11px;
+       position: relative;
+       bottom: 2px;
+   }
+   .bottom-ion{
+       width:24px ;
+       height: 10px;
+       /* border: 1px solid black; */
+       position: relative;
+       bottom: 2px;
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       border: 1px solid grey;
+       margin-left: 6px;
+       border-top-right-radius: 20%;
+       border-top-left-radius: 20%;
+   }
+/* -------------------------------------------------------------- */
+
+
+
+
+
+.comM3-1{
+    width: 75px;
+    background-color: black;
+    height: 20px;
+    color: rgba(26, 255, 0, 0.978);
+    font-size: 12px;
+    border-bottom: 4px solid gray;
+    border-right: 4px solid gray;
+    margin-bottom: 70px;
+    
+}
+.comNm2-1{
+    margin-left:100px;
+    
+}
+.T-box-1{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    color: black;
+    font-size: 7px;
+    font-weight: bold ;
+    
+}
+
+
+
+.arrowWithPipe-1{
+    width: 170px;
+    /* margin-left:; */
+    position: relative;
+    left: 50px;
+}
+.ion1-1{
+    width: 50px;
+    height:  15px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 2px;
+}
+.mian1-1{
+    width: 25px;
+    height: 5px;
+    background-color: rgba(238, 238, 238, 0.714);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+    border-radius: 5px;
+    border:1px solid black;
+    position: relative;
+    bottom: 3px;
+    margin-left: 6px;
+}
+.startjoin-1{
+    width: 8px;
+    height: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(0, 0, 161);
+}
+.midjoin-1{
+    width: 21px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgba(238, 238, 238, 0.714);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+    position: relative;
+    bottom: 3px;
+}
+.endjoin-1{
+    width: 8px;
+    height: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: rgb(0, 0, 161);
+}
+.midline-1{
+    width: 21px;
+    /* height: 1px; */
+    border: 1px solid black;
+}
+/* -------------------------------------------------------------- */
+
+
+
+   
+   
+   .arrowWithPipe{
+       width: 170px;
+       /* margin-left:; */
+       position: relative;
+       left: 50px;
+   }
+   .ion1{
+       width: 50px;
+       height:  15px;
+       /* border: 1px solid black; */
+       position: relative;
+       bottom: 2px;
+       
+   }
+   .mian1{
+       width: 25px;
+       height: 5px;
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+       border-radius: 5px;
+       border:1px solid black;
+       position: relative;
+       bottom: 3px;
+       margin-left: 5px;
+   }
+   .startjoin{
+       width: 8px;
+       height: 15px;
+       border-bottom-right-radius: 5px;
+       border-top-right-radius: 5px;
+       background-color: rgb(0, 0, 161);
+   }
+   .midjoin{
+       width: 21px;
+       height: 18px;
+       border: 1px solid black;
+       border-radius: 2px;
+       background-color: rgba(238, 238, 238, 0.714);
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+       position: relative;
+       bottom: 3px;
+   }
+   .endjoin{
+       width: 8px;
+       height: 15px;
+       border-bottom-left-radius: 5px;
+       border-top-left-radius: 5px;
+       background-color: rgb(0, 0, 161);
+   }
+   .midline{
+       width: 21px;
+       /* height: 1px; */
+       border: 1px solid black;
+   }
+   .step-3{
+       width: 93%;
+       height: 285px;
+       /* border: 1px solid black; */
+       /* margin-left: ; */
+   }
+   .PT-1{
+       font-size: 10px;
+       font-weight: bold;
+   }
+
+
+
+
+   .verticle-pipe{
+       width: 5px;
+       height: 203px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .comBar{
+       width: 75px;
+       margin-top: 55px;
+   }
+   .horiz-pipe{
+       width: 15px;
+       height: 5px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .verti-pipe{
+       width: 4px;
+       height: 90px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .pump-top-box{
+       width: 45px;
+       height: 25px;
+       background-color: black;
+       color: rgba(26, 255, 0, 0.978);
+       font-weight: 700;
+   }
+   .inner-box{
+       width: 40px;
+       height: 20px;
+       border: 1px solid rgb(181, 181, 181);
+       border-radius: 2px;
+   
+   }
+   .pump-top{
+       width: 30px;
+       height: 40px;
+       background-color: #8C001A;
+       border: 1px solid black;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .red-pump{
+       width: 50px;
+       height: 90px;
+       background-image: radial-gradient(black 1px, transparent 0);
+       background-size: 5px 5px;
+       background-position: -19px -19px;
+   }
+   .inner-black{
+       width: 10px;
+       height: 10px;
+       background-color: black;
+   }
+   .inner-black-mid{
+       border-right: 1px solid gray;
+       border-left: 1px solid gray;
+   }
+   .inner-bottum-box{
+       width: 10px;
+       height: 3px;
+       background-color: rgb(211, 211, 211);
+       border-radius: 2px;
+   }
+   .inner-bottum{
+       width: 30px;
+   }
+   .last-bottom-box{
+       width:32px;
+   height: 3px;
+   background-color: black;
+   }
+   .pump-mid{
+       width: 12px;
+       height: 40px;
+       background-color:#8C001A ;
+       border: 1px solid black;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   .pumb-end{
+       width: 20px;
+       height: 10px;
+       background-color:#8C001A ;
+       border: 1px solid black;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       border-top-right-radius: 20%;
+       border-top-left-radius: 20%;
+   }
+   .mid-liney{
+       width: 20px;
+       border: 1px solid rgba(44, 44, 44, 0.902);
+   }
+   .main2{
+       margin-top: 100%;
+   }
+   .t-shape-pipe {
+       margin-top: 66%;
+   }
+   .bit-pipe{
+       width: 10px;
+       height: 5px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       margin-top: 53%;
+   }
+   .pipe-4{
+       height: 8px;
+       width: 83%;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       margin-left:9%;
+   
+   }
+   .bronze-pipe-1{
+       width: 80%;
+       height: 12px;
+       /* border: 1px solid black; */
+       margin-left: 10%;
+       margin-top: 9px;
+   
+   }
+   li{
+       text-decoration: none;
+       list-style: none;
+       width: 30px;
+       height: 10px;
+       border: 1px solid black;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       background-image: radial-gradient( rgb(186, 168, 145) 1px, rgb(167, 80, 22));
+       /* background-color: rgb(175, 99, 6); */
+   }
+   .joinTo-water{
+       width: 9px;
+       height: 70px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       margin-left: 21px;
+   }
+   .bottom-water-flow{
+       width: 100%;
+       height: 200px;
+       border: 1px solid black;
+       background-image: url("../../assets/water.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+       bottom: 1px;
+   }
+   .kk{
+       width: 100%;
+       height: 20px;
+       
+       /* border: 1px solid black; */
+   }
+   .sand-1{
+       width: 135px;
+       height: 70px;
+       background-color: rgb(168, 111, 6);
+   }
+   .bronze-pipe-2{
+   width: 12px;
+   height: 100px;
+   /* border: 1px solid black; */
+   }
+   .bronze-2{
+       width: 12px;
+       height: 25px;
+   }
+   .centerofWater{
+       width: 78%;
+       height: 50px;
+       /* border: 1px solid black; */
+   }
+   /* .jointhewatertobronze{
+       width: 1015px;
+       height: 49px;
+       margin-left: 24px;
+   } */
+   .joinpipe{
+       width: 9px;
+       height: 30px;
+       background-color:rgb(49, 122, 161) ;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+       /* margin-left: 21px; */
+   }
+   .sand-2{
+       width: 130px;
+       height: 70px;
+       background-color: rgb(168, 111, 6);
+   }
+   .sand-3{
+       width: 95px;
+       height: 70px;
+       background-color: rgb(168, 111, 6);
+   }
+   .sand-4{
+       width: 135px;
+       height: 60px;
+       background-color: rgb(168, 111, 6);
+   }
+   .lt-1{
+       width: 25px;
+       height: 25px;
+       /* border: 1px solid black; */
+       margin-left: 40px;
+       background-color: rgb(207, 207, 207);
+       margin-top: 1px;
+   }
+   .lt-2{
+       margin-left: 0;
+   }
+   .inner-lt{
+       width: 22px;
+       height: 4px;
+       background-color: red;
+   }
+   .div-1{
+       width: 8px;
+       height: 2px;
+       background-color:rgb(207, 207, 207);
+   }
+   .sand-5{
+       width: 130px;
+       height:130px;
+       background-color: rgb(168, 111, 6);
+   }
+   .under-sand{
+       position:absolute;
+       bottom:1px;
+       /* top:-1px; */
+       width:1087px;
+       height: 60px;
+       background-color: rgb(121, 120, 117);
+   }
+   .sandy{
+       width: 357px;
+       height: 60px;
+       background-color: rgb(168, 111, 6);
+       border-top-right-radius: 300%;
+   }
+   .sandy-1{
+       border-radius: 0;
+       border-top-left-radius: 200%;
+   }
+   .water-flow{
+       width: 380px;
+       height: 80px;
+       border: 1px solid black;
+       background-image: url("../../assets/water.jpg");
+   }
+   .water-flow-1{
+       width: 20px;
+       height: 80px;
+       /* border: 1px solid black; */
+   }
+   .center-water-flow{
+       width: 340px;
+       height: 80px;
+       /* border: 1px solid black; */
+   }
+   .under-wall-1{
+       width: 20px;
+       height: 7px;
+       background-color: brown;
+   }
+   .under-wall-2{
+       width: 20px;
+       height: 15px;
+       background-color: rgb(46, 4, 4);
+   }
+   .upper-rod{
+       width: 340px;
+       height: 15px;
+       background-color: rgb(60, 60, 60);
+   }
+
+
+
+   .pipeline {
+    width: 5px;
+    height: 60px; 
+    background-color:rgba(55,71,79,1.0);
+    margin-left: 775px;
+    margin-top: -64px;
+  }
+  .pipeline-1 {
+    width: 100px; 
+    height: 5px;
+    background-color: rgba(55,71,79,1.0);
+    margin-left: 680px;
+    margin-bottom: -10px;
+  }
+.pipeline-1-1{
+    width: 5px;
+    height: 25px;
+    background-color:rgba(55,71,79,1.0);
+    margin-right: 500px;
+    margin-left: 47px;
+    margin-top: -2px;
+}
+
+
+   .border0frod{
+       width: 340px;
+       border: 1px solid black;
+   }
+   .upper-rod-1{
+       width: 340px;
+       height: 15px;
+       background-color: rgba(55,71,79,1.0);
+   }
+   .pipeline-1-2 {
+    width: 150px; 
+    height: 5px;
+    background-color: rgba(55,71,79,1.0);
+    margin-right: -80px; 
+}
+
+
+   .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .left, .right {
+    flex: 1;
+    text-align: center;
+    position: relative;
+  }
+
+  .line {
+    border-left: 2px solid black; 
+    height: 200%;
+    top: 0;
+    bottom: 0;
+   margin-bottom: 50px;
+  }
+
